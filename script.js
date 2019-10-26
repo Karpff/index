@@ -30,7 +30,8 @@ var repos =
   ["Chess","chess"],
   ["Clock o' Clocks","clock"],
   ["Fireworks","fireworks"],
-  ["Hypnosis","hypnotic"]
+  ["Hypnosis","hypnotic"],
+  ["Skeleton Rush","skeleton-rush"]
 ];
 
 var html = "";
