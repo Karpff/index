@@ -1,0 +1,68 @@
+html
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('bg.jpg');
+  background-size: 100%;
+  overflow:hidden;
+}
+
+body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  background: rgba(0,0,0,0.7);
+  overflow-y: auto;
+}
+
+.subsite
+{
+	display: inline-block;
+	text-align: center;
+	margin: 5px 10px;
+	opacity: 0.7;
+	width: 210px;
+  transition: 0.25s;
+}
+
+.subsite:hover
+{
+  transition: 0.25s;
+	opacity: 1;
+}
+
+.subsite > a
+{
+  text-decoration: none;
+}
+
+.subsite > a > img
+{
+	border: 1px solid rgba(255,255,255,0.5);
+	width: 200px;
+	height: 140px;
+}
+
+.subsite:hover > a > img
+{
+	box-shadow: 0 0 5px 0 white;
+}
+
+.subsite > a > span
+{
+	color: white;
+  font-weight: bold;
+	text-decoration: none;
+	font-size: 16px;
+	position: relative;
+	bottom: 34px;
+	text-shadow: 2px 0 black,
+	0 2px black,
+	-2px 0 black,
+	0 -2px black;
+}
