@@ -31,7 +31,9 @@ var repos =
   ["Clock o' Clocks","clock"],
   ["Fireworks","fireworks"],
   ["Hypnosis","hypnotic"],
-  ["Skeleton Rush","skeleton-rush"]
+  ["Skeleton Rush","skeleton-rush"],
+  ["12 Symmetry","12symmetry"],
+  ["Blob","blob"]
 ];
 
 var html = "";
