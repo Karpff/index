@@ -33,7 +33,8 @@ var repos =
   ["Hypnosis","hypnotic"],
   ["Skeleton Rush","skeleton-rush"],
   ["12 Symmetry","12symmetry"],
-  ["Blob","blob"]
+  ["Blob","blob"],
+  ["Arkanoid","arkanoid"]
 ];
 
 var html = "";
